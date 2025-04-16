@@ -93,3 +93,58 @@ nav ul li a:hover {
   text-transform: capitalize;
   transition: 0.5s ease-in;
 }
+
+.container-table {
+  display: block;
+  /* justify-content: center; */
+  gap: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+  transition: transform 0.2s;
+  margin: 10px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid black;
+}
+
+th,
+td {
+  padding: 10px;
+  border: 1px solid black;
+}
+
+td a {
+  text-decoration: none;
+}
+
+td a:hover {
+  color: darkblue;
+  transition: 0.5s ease-in;
+}
+
+th {
+  background-color: darkblue;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+}
+
+td:nth-child(1) {
+  text-align: center;
+}
+
+td:nth-child(2) {
+  text-transform: uppercase;
+}
+
+td:nth-child(3) {
+  color: red;
+}
