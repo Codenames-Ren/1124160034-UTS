@@ -96,7 +96,6 @@ nav ul li a:hover {
 
 .container-table {
   display: block;
-  /* justify-content: center; */
   gap: 20px;
   background-color: white;
   border-radius: 10px;
@@ -147,4 +146,17 @@ td:nth-child(2) {
 
 td:nth-child(3) {
   color: red;
+}
+
+.container-map {
+  display: block;
+  gap: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+  transition: transform 0.2s;
+  margin: 10px;
 }
