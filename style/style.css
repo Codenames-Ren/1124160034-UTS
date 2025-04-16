@@ -1,5 +1,7 @@
 * {
   font-family: "Poppins", Arial, Helvetica, sans-serif;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 h1 {
@@ -24,4 +26,70 @@ h1 {
   width: 200px;
   border-radius: 90%;
   margin-bottom: 20px;
+}
+
+.container li {
+  text-align: left;
+}
+
+.container li a {
+  text-decoration: none;
+}
+
+nav {
+  background-color: darkblue;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+nav h3 span {
+  font-family: "Caveat", sans-serif;
+  color: #ffc400;
+}
+
+nav h3 {
+  font-size: 35px;
+  font-family: "Caveat", sans-serif;
+  font-style: italic;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+nav ul {
+  list-style: none;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  display: block;
+  padding: 14px 20px;
+}
+
+nav ul li a:hover {
+  color: aqua;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  transition: 0.5s ease-in;
 }
