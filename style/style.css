@@ -181,3 +181,41 @@ td:nth-child(3) {
   color: white;
   font-size: 18px;
 }
+
+footer {
+  background-color: rgb(3, 106, 216);
+  text-align: center;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+.social-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social {
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: darkblue;
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.social:hover {
+  background-color: royalblue;
+}
+
+.social i,
+.social svg {
+  font-size: 20px;
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}
