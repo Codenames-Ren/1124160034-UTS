@@ -5,3 +5,23 @@
 h1 {
   text-align: center;
 }
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+  transition: transform 0.2s;
+  margin: 10px;
+}
+
+.container img {
+  width: 200px;
+  border-radius: 90%;
+  margin-bottom: 20px;
+}
